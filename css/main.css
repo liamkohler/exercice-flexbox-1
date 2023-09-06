@@ -1,16 +1,8 @@
-/* ====================================
-// css variables
-// ==================================== */
-
 :root {
   --dark-blue: #264653;
   --green: #2a9d8f;
   --white: #ffefef;
 }
-
-/* ====================================
-// reset rules
-// ==================================== */
 
 * {
   box-sizing: border-box;
@@ -42,6 +34,39 @@ video {
   vertical-align: middle;
 }
 
-/* ====================================
-// base rules
-// ==================================== */
+.section {
+  background-color: var(--green);
+  display: flex;
+  margin: 40px;
+}
+
+.box {
+  background-color: var(--dark-blue);
+  color: var(--white);
+  font-family: "Playfair Display", serif;
+  font-size: 42px;
+  line-height: 50px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.section-1 {
+  justify-content: flex-start;
+}
+
+.section-2 {
+  justify-content: flex-end;
+}
+
+.section-3 {
+  flex-direction: column;
+}
+
+.section-4 {
+  justify-content: space-between;
+}
+
+.section-5 {
+  flex-direction: column;
+  align-items: center;
+}
